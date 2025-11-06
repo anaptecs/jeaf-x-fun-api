@@ -1,0 +1,4 @@
+com.anaptecs.jeaf.xfun.test.config.DefaultTestInterfaceImpl
+com.anaptecs.jeaf.xfun.test.config.AbstractTestInterfaceImpl
+java.lang.String
+com.anaptecs.jeaf.xfun.test.config.CustomTestInterfaceImpl
