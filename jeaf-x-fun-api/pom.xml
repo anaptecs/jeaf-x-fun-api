@@ -11,14 +11,6 @@
 	<artifactId>jeaf-x-fun-api</artifactId>
 	<packaging>jar</packaging>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.junit.platform</groupId>
-			<artifactId>junit-platform-suite-api</artifactId>
-		</dependency>
-	</dependencies>
-	
-	
 	<build>
 		<plugins>
 			<plugin>

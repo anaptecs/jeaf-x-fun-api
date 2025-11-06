@@ -24,6 +24,14 @@
 		<tag>HEAD</tag>
 	</scm>
 	
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-suite-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
 	<modules>
 		<module>jeaf-x-fun-api</module>
 		<module>jeaf-x-fun-api-test</module>
