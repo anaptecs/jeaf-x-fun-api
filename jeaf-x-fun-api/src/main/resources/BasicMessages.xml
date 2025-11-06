@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Root PUBLIC "MessageData" "MessageData.dtd">
+
+<!-- XML file contains all basic messages of JEAF. For all messages of this XML file no constants will be generated. -->
+<Root>
+    <MessageFolder name="Basic messages" idRangeBegin="0" idRangeEnd="9">
+    
+        <MessageFolder name="Localized Texts" idRangeBegin="0" idRangeEnd="0">
+            <Message messageID="0" name="ERROR" type="LOCALIZED_STRING" defaultText="Error" description="">
+                <LocalizedMessage language="en" country="" variant="" localizedText="Error" />
+                <LocalizedMessage language="de" country="" variant="" localizedText="Fehler" />
+             </Message>
+        </MessageFolder>
+        <MessageFolder name="Verifier messages" idRangeBegin="1" idRangeEnd="4">
+            <Message messageID="1" 
+                name="IS_NOT_NULL" 
+                type="ERROR" 
+                defaultText="{0} must not be NULL." 
+                description="Exceptions with this error code are thrown if a verification for a not null value fails."/>
+            
+            <Message messageID="2" 
+                name="IS_ZERO_OR_GREATER" 
+                type="ERROR" 
+                defaultText="Value ''{0}'' must be zero or greater, but is ''{1}''." 
+                description="Exceptions with this error code are thrown if a verification for an integer value that has to be zero or greater fails."/>
+            
+            <Message messageID="3" 
+                name="WRONG_NODE_NAME" 
+                type="ERROR" 
+                defaultText="DOM node / element ''{0}'' does not have required name ''{1}''." 
+                description="Exceptions with this error code are thrown if a verification for a name of a DOM node fails because it does not have the expected name."/>
+            
+            <Message messageID="4" 
+                name="NODE_NAME_NOT_NULL" 
+                type="ERROR" 
+                defaultText="DOM node / element has name ''{0}'' instead of null." 
+                description="Exceptions with this error code are thrown if a verification for a name of a DOM node fails because it is null."/>
+        </MessageFolder>
+        <MessageFolder name="Repository Messages" idRangeBegin="5" idRangeEnd="9">
+            <Message messageID="5" 
+                name="RESOURCE_ALREADY_LOADED" 
+                type="ERROR" 
+                defaultText="Message Resource ''{0}'' has already been loaded." 
+                description="Exceptions with this exception id are thrown if somebody tries to load a message resource the second time."/>
+            
+            <Message messageID="6" 
+                name="ERROR_CODE_ALREADY_IN_USE" 
+                type="ERROR" 
+                defaultText="Error-Code ''{0}'' is already in use." 
+                description="Exceptions with this error code are thrown if somebody tries to create an ErrorCode object with an error code that was used before."/>
+            
+            <Message messageID="7" 
+                name="UNABLE_TO_PARSE_XML_FILE" 
+                type="ERROR" 
+                defaultText="Unable to parse XML resource ''{0}''." 
+                description="Exceptions with this error code are thrown if during parsing an XML resource an exception occurs."/>
+            
+            <Message messageID="8" 
+                name="MESSAGE_ID_ALREADY_USED_TO_IDENTIFY_MESSAGE" 
+                type="ERROR" 
+                defaultText="Message for MessageID ''{0}'' is already configured." 
+                description="Exceptions with this error code are thrown if somebody tries to add a message to the message repository and the used ErrorCode object was already used to store a MessageFormat object."/>
+            
+            <Message messageID="9" 
+                name="UNKNOWN_ERROR_CODE" 
+                type="ERROR" 
+                defaultText="Error-Code ''{0}'' is unknown. The corresponding message resource might not have been loaded." 
+                description="Exceptions with this error code are thrown if somebody tries to create a new ErrorCode object with an unknown error code. This usually happens if the corresponding message resource was not yet loaded."/>
+
+           <Message messageID="10" 
+                name="VERSION_DETAIL_NOT_DEFINED" 
+                type="ERROR"
+                traceLevel="ERROR"
+                defaultText="Version info property ''{0}'' is not defined or not set." 
+                description="Exceptions with this error code are thrown if the version info property file does not contain a required property."/>
+            
+            <Message messageID="11" 
+                name="INVALID_VERSION_NUMBER_FORMAT" 
+                type="ERROR"
+                traceLevel="ERROR"
+                defaultText="Property file with version info (''{0}'') conains an invalid value. The value of the property ''{1}'' could not be converted to a valid integer value." 
+                description="Exceptions with this error code are thrown if the property file with the version information contains a value for the part of the version number or the build number that can not be converted to an integer value."/>
+            
+            <Message messageID="12"
+                name="INVALID_CREATION_DATE_FORMAT" 
+                type="ERROR"
+                traceLevel="ERROR"
+                defaultText="Property file with version info (''{0}'') conains an invalid creation date. Property value ''{1}'' does not match to format 'yyyy-MM-dd HH:mm:ss.SSS'." 
+                description="Exceptions with this error code are thrown if the creation date defined in the version info property file does not have the format 'yyyy-MM-dd HH:mm:ss.SSS'."/>
+
+            <Message messageID="13"
+                name="INVALID_MESSGE_FORMAT" 
+                type="ERROR"
+                traceLevel="ERROR"
+                defaultText="Message for Message-ID ''{0}'' contains an invalid message format. Invalid message format: {1}" 
+                description="Exceptions with this error code are thrown if an error message is not a valid message string accroding to requirements of class MessageFormat."/>
+
+        </MessageFolder>
+    </MessageFolder> 
+</Root>
+

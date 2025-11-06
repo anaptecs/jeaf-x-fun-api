@@ -1,0 +1,3 @@
+com.anaptecs.jeaf.xfun.test.trace.FloatingPointFormatter
+com.anaptecs.jeaf.xfun.test.trace.BrokenTraceFormatter
+com.anaptecs.jeaf.xfun.test.trace.ObjectFormatterImpl

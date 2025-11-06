@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent POM contains all general settings for building and releasing of all JEAF projects. -->
+	<parent>
+		<groupId>com.anaptecs.jeaf</groupId>
+		<artifactId>jeaf-module-project-parent</artifactId>
+		<version>1.9.0</version>
+	</parent>
+
+	<groupId>com.anaptecs.jeaf.x-fun</groupId>
+	<artifactId>jeaf-x-fun-api-project</artifactId>
+	<version>1.8.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>JEAF X-Fun API Project</name>
+	<description>JEAF X-Fun (cross functions) provides a set classes and interfaces that can be used as a basis for enterprise class software development projects.</description>
+	<url>https://www.anaptecs.de/jeaf</url>
+
+	<scm>
+		<connection>scm:git:https://github.com/anaptecs/jeaf-x-fun-api.git</connection>
+		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-x-fun-api.git</developerConnection>
+		<url>https://github.com/anaptecs/jeaf-x-fun-api</url>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<modules>
+		<module>jeaf-x-fun-api</module>
+		<module>jeaf-x-fun-api-test</module>
+	</modules>
+</project>
