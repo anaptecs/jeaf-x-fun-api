@@ -75,7 +75,7 @@ public class JavaRuntimeEnvironmentTest {
 
     // Test unknown releases
     assertEquals(JavaRelease.UNKNOWN, JavaRelease.getJavaRelease("1.4.5.1_123"));
-    assertEquals(JavaRelease.UNKNOWN, JavaRelease.getJavaRelease("21.0.1"));
+    assertEquals(JavaRelease.UNKNOWN, JavaRelease.getJavaRelease("31.0.1"));
     assertEquals(JavaRelease.UNKNOWN, JavaRelease.getJavaRelease("999.0.1"));
     assertEquals(JavaRelease.UNKNOWN, JavaRelease.getJavaRelease("MyVersion"));
   }
