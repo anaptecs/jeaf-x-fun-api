@@ -45,7 +45,7 @@
 				<version>0.9.0</version>
 				<extensions>true</extensions>
 				<configuration>
-					<publishingServerId>central</publishingServerId>
+					<publishingServerId>central-portal-snapshots</publishingServerId>
 					<autoPublish>false</autoPublish>
 					<waitUntil>validated</waitUntil>
 				</configuration>
