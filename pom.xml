@@ -27,7 +27,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/anaptecs/maven-snapshots</url>
+			<url>https://maven.pkg.github.com/anaptecs</url>
 		</snapshotRepository>
 	</distributionManagement>
 
