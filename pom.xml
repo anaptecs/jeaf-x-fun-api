@@ -24,6 +24,13 @@
 		<tag>HEAD</tag>
 	</scm>
 	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/anaptecs/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.platform</groupId>
