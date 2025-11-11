@@ -27,7 +27,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/anaptecs</url>
+			<url>https://maven.pkg.github.com/anaptecs/jeaf-x-fun-api</url>
 		</snapshotRepository>
 	</distributionManagement>
 
